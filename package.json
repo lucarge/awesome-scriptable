@@ -1,0 +1,17 @@
+{
+  "name": "awesome-scriptable",
+  "version": "1.0.0",
+  "description": "Colletion of scripts to use with Scriptable",
+  "main": "index.js",
+  "repository": "git@github.com:lucarge/awesome-scriptable.git",
+  "author": "lucarge <luca.argenziano@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0"
+  },
+  "scripts": {
+    "eslint": "eslint ./src/**/*.js"
+  }
+}
