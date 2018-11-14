@@ -13,5 +13,10 @@
   },
   "scripts": {
     "eslint": "eslint ./src/**/*.js"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "prettier": "1.15.2"
   }
 }

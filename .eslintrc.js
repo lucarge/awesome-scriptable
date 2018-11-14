@@ -1,12 +1,13 @@
 module.exports = {
-  extends: 'airbnb-base',
+  extends: ['airbnb-base', 'prettier'],
   globals: {
     config: false,
     Request: false,
     Safari: false,
     Speech: false,
   },
+  plugins: ['prettier'],
   rules: {
-    semi: ['error', 'never'],
+    'prettier/prettier': ['error'],
   }
 }
